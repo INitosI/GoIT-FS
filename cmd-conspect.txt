@@ -23,3 +23,6 @@ git restore --staged secret.md вилучить зміни, пов'язані з
     Ігнорувати всі .txt файли, крім plans.txt
     *.txt
     !plans.txt
+
+git commit -m "commit message" - отправить коммит, синхронизировать с гитом
+
