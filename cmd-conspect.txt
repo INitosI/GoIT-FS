@@ -24,5 +24,6 @@ git restore --staged secret.md вилучить зміни, пов'язані з
     *.txt
     !plans.txt
 
-git commit -m "commit message" - отправить коммит, синхронизировать с гитом
-
+git commit -m "commit message" - локально создать коммит, не синхронизирует с гитом
+git log - історія комітів
+git push - отправить на гитхаб
